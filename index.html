@@ -13,6 +13,17 @@
                   Aegis HK at no cost and is intended for use as
                   is.
                 </p> <p>
+                <strong>Required Permissions</strong> <p>
+                  petaSOS requires following permissions:
+                  <li>android.permission.SEND_SMS</li>
+                  This permission is required for core app functionality and it is needed to send scheduled SMS message.
+                  The app will ask for this permission before scheduling the message.
+                  If you don’t allow this permission the message will not be scheduled.
+                  <li>android.permission.ACCESS_FINE_LOCATION and android.permission.ACCESS_BACKGROUND_LOCATION</li>
+                  These permissions are optional and needed to include your latest location to the scheduled message.
+                  The app will ask for this permission only if you want to enable location functionality in the app settings.
+                  Your location will not be tracked, only retrieved once when the message is sent at the scheduled time.
+                </p> <p>
                   This page is used to inform visitors regarding our
                   policies with the collection, use, and disclosure of Personal
                   Information if anyone decided to use our Service.
